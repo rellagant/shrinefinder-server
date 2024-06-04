@@ -1,0 +1,248 @@
+[
+  {
+    "id": 1,
+    "name": "Hachidai Jinja",
+    "location": {
+      "lat": 35.0125,
+      "lng": 135.6733
+    },
+    "city": "Kyoto",
+    "country": "Japan",
+    "image": "/filepath/hachidai_jinja.jpeg",
+    "description": "Hachidai Jinja is known for its serene atmosphere and ancient rituals. It is associated with Miyamoto Musashi, a great sword master who passed by on his way to duel the Yoshioka school. The shrine is serene with lush greenery and is made of bisha wood. It is located within walking distance of Ichijoji Sagarimatsu (an ancient pine) as well as Shisendo and Enko-ji temples. ",
+    "deities": [
+      "Eight Dragon Kings (Hachidai Ryujin)",
+      "Hachidaitenno (Eight Guardian Deities)",
+      "Susanoo-no-Mikoto",
+      "Inari"
+    ],
+    "features": ["Torii gates",  "Traditional wooden architecture (Bisha wood)"],
+    "souvenirs_and_charms": [
+      "Omamori (Protection Charms)",
+      "Ema (Votive Tablets)",
+      "Ofuda (Talismans)",
+      "Goshuin (calligraphy)"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "I was here for the new years celebrations and the food stalls were amazing!"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Atago Jinja",
+    "location": {
+      "lat": 35.0135,
+      "lng": 135.7667
+    },
+    "city": "Kyoto",
+    "country": "Japan",
+    "image": "/filepath/atago_jinja.jpeg",
+    "description": "Atop Mount Atago, shrouded in mystery and commanding breathtaking views of Kyoto, lies Atago Jinja.  This revered Shinto shrine isn't just a scenic destination; it's a guardian spirit, fiercely protecting Kyoto from the wrath of fire.  Challenge yourself with the steep hike to the summit, and be rewarded with panoramic vistas of the ancient city sprawling beneath you.  Once you reach the shrine, soak in the serene atmosphere and feel the weight of history as you pay respects to the deity who safeguards Kyoto from flames.",
+    "deities": ["Atago Gongen"],
+    "features": ["Guardian of Kyoto from fire (cultural significance)",
+    "Breathtaking panoramic views of Kyoto",
+    "Challenging hike (over 1000 steps) and serene escape"],
+    "souvenirs_and_charms": [
+      "Omamori (Protection Charms)",
+      "Ema (Votive Tablets)",
+      "Ofuda (Talismans)",
+      "Engimono (Good Luck Charms)",
+      "Fire Prevention Charms"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "I was here for the new years celebrations and the food stalls were amazing!"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Yuki Jinja",
+    "location": { "lat": 35.1306, "lng": 135.765 },
+    "city": "Kyoto",
+    "country": "Japan",
+    "description": "Tucked away on sacred Mount Kurama, Yuki Shrine beckons with serenity and ancient power. Nestled amidst a vibrant tapestry of green, the shrine offers a tranquil escape, perfect for those seeking a spiritual connection with nature. Towering over the main hall is a majestic sight - a colossal 53-foot cedar tree, standing sentinel for over 800 years. Believed to be a powerful kami (spirit) attractor, its presence adds an air of mystique to the environment.",
+    "deities": ["Sarutahiko no Mikoto", "Ukanomitama no Mikoto"],
+    "features": [
+        "800-year-old, 53-foot cedar tree",
+        "Sōjōbō, the god of all Tengu (mountain spirits)",
+        "Annual Water Festival (cleansing rituals and celebrations)",
+        "Kurama Fire Festival (blaze of purification around October 22nd)"
+    ],
+    "souvenirs_and_charms": [
+      "Omamori (Protection Charms)",
+      "Ema (Votive Tablets)",
+      "Ofuda (Talismans)",
+      "Good Luck Charms"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "The hike up to the shrine is beautiful and peaceful. The shrine itself is serene and offers a great spiritual experience."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Saki Jinja",
+    "location": { "lat": 34.6847, "lng": 135.8118 },
+    "city": "Nara",
+    "country": "Japan",
+    "description": "Saki Jinja, a hidden gem nestled in Nara City, is steeped in history and agricultural significance.  It's considered one of the fifteen major shrines (Junisha) in Nara. Originally, a temple called Chosho-ji, founded by Imperial Prince Takagaku during the Heian period, stood near the shrine's current location. Saki Jinja served as the guardian of that temple. The shrine's location in the Sakicho district, once known as Sakiki Village, reflects the shrine's deep connection to the area's agricultural roots. You'll find kofun (ancient Japanese burial mounds dating from the 3rd to the 6th centuries) as well as rice paddies nearby.",
+    "deities": [
+      "Amagiya-no-Mikoto",
+      "Tsunetsu-nushi-kami",
+      "Rokugoken-no-Mikoto",
+      "Oshikami-no-Kami and Nakatsuhiko-no-Kami (Gods of Agriculture and Harvest)",
+      "Gods related to the Fujiwara clan, Mononobe clan, and the imperial family"
+    ],
+    "souvenirs_and_charms": [
+      "This shrine is only open on certain days of the year so at present it is unknown if there are items available."
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Saki Jinja is a hidden gem in Nara. The shrine's tranquil atmosphere and beautiful surroundings make it a perfect place for contemplation and relaxation."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Kairyuo-ji",
+    "location": {"lat": 34.6819, "lng": 135.8323},
+    "city": "Nara",
+    "country": "Japan",
+    "description": "Kairyuo-ji is a small Buddhist temple nestled in the hills of Nara City. Despite its modest size, it is revered for its tranquil atmosphere and beautiful gardens. Cherry Blossom viewing and Autumn Foliage viewing are ideal at this shrine.",
+    "deities": ["Buddha"],
+    "features": ["Main Hall (Hondo)", "Gardens", "Bell Tower"],
+    "souvenirs_and_charms": [
+      "Omamori (Protection Charms)",
+      "Ema (Votive Tablets)",
+      "Miniature Buddha Statues"
+    ],
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Kairyuo-ji is a hidden gem in Nara City. The temple grounds are serene and well-maintained, making it a peaceful escape from the hustle and bustle of the city."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Nara Inko-ji",
+    "location": {"lat": 34.6795, "lng": 135.8353},
+    "city": "Nara",
+    "country": "Japan",
+    "description": "Nara Inko-ji is a small Buddhist temple located in the heart of Nara City. It is renowned for its traditional architecture and serene atmosphere.",
+    "deities": ["Buddha"],
+    "features": ["Main Hall (Hondo)", "Pagoda", "Gardens"],
+    "events_and_festivals": [
+      "New Year's Prayer Ceremony",
+      "Garden Festivals"
+    ],
+    "souvenirs_and_charms": [
+      "Omamori (Protection Charms)",
+      "Ema (Votive Tablets)",
+      "Miniature Pagodas"
+    ],
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Nara Inko-ji is a charming temple with beautiful gardens. It's a peaceful retreat in the heart of Nara City."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Nara Hanazono Jinja",
+    "location": {"lat": 34.6812, "lng": 135.8282},
+    "city": "Nara",
+    "country": "Japan",
+    "description": "Nara Hanazono Jinja is a small Shinto shrine located near Nara Park. It is dedicated to Inari, the deity of rice and prosperity, and is known for its vermilion torii gates and fox statues.",
+    "deities": ["Inari"],
+    "features": ["Torii Gates", "Fox Statues"],
+    "events_and_festivals": [
+      "New Year's Prayer Ceremony",
+      "Fox Festival"
+    ],
+    "souvenirs_and_charms": [
+      "Omamori (Protection Charms)",
+      "Ema (Votive Tablets)",
+      "Fox Charms"
+    ],
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Nara Hanazono Jinja is a charming shrine with a serene atmosphere. The torii gates and fox statues add to its beauty."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Okita Shrine",
+    "location": {"lat": 34.6907, "lng": 133.9195},
+    "city": "Okayama",
+    "country": "Japan",
+    "description": "Okita Shrine is a historic Shinto shrine located in Okayama City. Nestled by the Hyakuken River, it enshrines a princess who was offered to a white snake/dragon in return for a cease to the flooding of Okayama city. One of the shrine buildings has a beautiful and impressively large shimenawa (ropes made of rice straw or hemp to ward off evil spirits). This shrine is particularly beloved by locals and is great for children as it has an abundance of themed charms including Dragon-Ball and Hello Kitty.",
+    "deities": ["Amaterasu", "Susanoo-no-Mikoto"],
+    "features": ["Main Hall (Honden)", "Torii Gate", "Garden"],
+    "souvenirs_and_charms": [
+      "Omamori (Protection Charms)",
+      "Ema (Votive Tablets)",
+      "Local Handicrafts"
+    ],
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Okita Shrine is a peaceful and picturesque spot in Okayama. The garden is particularly beautiful."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Yoshinaga Jinja",
+    "location": {"lat": 34.5975, "lng": 133.8865},
+    "city": "Okayama",
+    "country": "Japan",
+    "description": "Yoshinaga Shrine is a small Shinto shrine nestled in the countryside of Okayama. It is revered for its tranquil atmosphere and beautiful natural surroundings.",
+    "deities": ["Susanoo-no-Mikoto"],
+    "features": ["Main Hall (Honden)", "Torii Gate", "Forest Setting"],
+    "souvenirs_and_charms": [
+      "Omamori (Protection Charms)",
+      "Ema (Votive Tablets)",
+      "Local Crafts"
+    ],
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Yoshinaga Shrine is a hidden gem in Okayama. The lush forest setting adds to its charm."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Kibitsu Jinja",
+    "location": {"lat": 34.6368, "lng": 133.8537},
+    "city": "Okayama",
+    "country": "Japan",
+    "description": "Kibitsu Jinja is a historic Shinto shrine complex steeped in legend, architectural beauty, and natural wonder. Once the main shrine for the entire Kibi Province, it became the guardian of Bitchu Province (modern Okayama) after the region's division. Nestled at the foot of Mount Kibi-Nakayama, the shrine's grounds offer a tranquil escape. A majestic 600-year-old ginkgo tree stands sentinel, its leaves turning a vibrant yellow each November. Kibitsu Jinja isn't just a single shrine, but a shrine complex that tells a rich story. Explore the enchanting peony garden, bursting with color in spring, or wander through the serene hydrangea garden during the summer months.  Hundreds of lanterns illuminate the pathways, casting a magical glow at night, creating a truly atmospheric experience.  There's even an on-site kyu-dojo (archery).",
+    "deities": ["Kibi-no-Omi-no-Mikoto", "Susanoo-no-Mikoto"],
+    "features": ["Main Hall (Honden)", "Torii Gate", "Kibitsu-zuka Mound"],
+    "souvenirs_and_charms": [
+      "Omamori (Protection Charms)",
+      "Ema (Votive Tablets)",
+      "Local Handicrafts",
+      "Goshuin (calligraphy)"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Kibitsu Shrine is a must-visit destination in Okayama. Its historical significance and serene atmosphere make it a truly memorable experience."
+      }
+    ]
+  }
+]
