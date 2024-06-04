@@ -1,6 +1,28 @@
 [
   {
     "id": 1,
+    "name": "Reigandō",
+    "location": { "lat": 32.8196, "lng": 130.6228 },
+    "city": "Kumamoto",
+    "country": "Japan",
+    "description": "Reigando Cave, also known as Reigando (霊厳洞), is a historical landmark steeped in the legend of the famed swordsman Miyamoto Musashi. Nestled amidst tangerine orchards, this cave served as a retreat for Musashi during his later years. Here, he is believed to have penned his legendary book, The Book of Five Rings, a treatise on swordsmanship and strategy. Visitors can explore the serene cave surroundings and witness the hundreds of weathered stone statues (Gohyaku Rakan) representing the 500 disciples of Buddha who attained enlightenment. Pay homage at the enshrined statue of Kannon, the Bodhisattva of Compassion. Reigandō offers a glimpse into the life and legacy of Miyamoto Musashi, a figure who continues to inspire swordsmen and strategists alike. There's a great restaurant halfway up to the cave, try the curry!",
+    "deities": ["Kannon"],
+    "features": [
+      "Retreat of the legendary swordsman Miyamoto Musashi",
+      "Location where he wrote The Book of Five Rings",
+      "Hundreds of weathered stone statues (Gohyaku Rakan)",
+      "Statue of Kannon, the Bodhisattva of Compassion"
+    ],
+    "souvenirs_and_charms": ["Uknown"],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Kibitsu Shrine is a must-visit destination in Okayama. Its historical significance and serene atmosphere make it a truly memorable experience."
+      }
+    ]
+  },
+  {
+    "id": 2,
     "name": "Hachidai Jinja",
     "location": {
       "lat": 35.0125,
@@ -16,7 +38,7 @@
       "Susanoo-no-Mikoto",
       "Inari"
     ],
-    "features": ["Torii gates",  "Traditional wooden architecture (Bisha wood)"],
+    "features": ["Torii gates", "Traditional wooden architecture (Bisha wood)"],
     "souvenirs_and_charms": [
       "Omamori (Protection Charms)",
       "Ema (Votive Tablets)",
@@ -31,7 +53,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Atago Jinja",
     "location": {
       "lat": 35.0135,
@@ -42,9 +64,11 @@
     "image": "/filepath/atago_jinja.jpeg",
     "description": "Atop Mount Atago, shrouded in mystery and commanding breathtaking views of Kyoto, lies Atago Jinja.  This revered Shinto shrine isn't just a scenic destination; it's a guardian spirit, fiercely protecting Kyoto from the wrath of fire.  Challenge yourself with the steep hike to the summit, and be rewarded with panoramic vistas of the ancient city sprawling beneath you.  Once you reach the shrine, soak in the serene atmosphere and feel the weight of history as you pay respects to the deity who safeguards Kyoto from flames.",
     "deities": ["Atago Gongen"],
-    "features": ["Guardian of Kyoto from fire (cultural significance)",
-    "Breathtaking panoramic views of Kyoto",
-    "Challenging hike (over 1000 steps) and serene escape"],
+    "features": [
+      "Guardian of Kyoto from fire (cultural significance)",
+      "Breathtaking panoramic views of Kyoto",
+      "Challenging hike (over 1000 steps) and serene escape"
+    ],
     "souvenirs_and_charms": [
       "Omamori (Protection Charms)",
       "Ema (Votive Tablets)",
@@ -60,7 +84,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Yuki Jinja",
     "location": { "lat": 35.1306, "lng": 135.765 },
     "city": "Kyoto",
@@ -68,10 +92,10 @@
     "description": "Tucked away on sacred Mount Kurama, Yuki Shrine beckons with serenity and ancient power. Nestled amidst a vibrant tapestry of green, the shrine offers a tranquil escape, perfect for those seeking a spiritual connection with nature. Towering over the main hall is a majestic sight - a colossal 53-foot cedar tree, standing sentinel for over 800 years. Believed to be a powerful kami (spirit) attractor, its presence adds an air of mystique to the environment.",
     "deities": ["Sarutahiko no Mikoto", "Ukanomitama no Mikoto"],
     "features": [
-        "800-year-old, 53-foot cedar tree",
-        "Sōjōbō, the god of all Tengu (mountain spirits)",
-        "Annual Water Festival (cleansing rituals and celebrations)",
-        "Kurama Fire Festival (blaze of purification around October 22nd)"
+      "800-year-old, 53-foot cedar tree",
+      "Sōjōbō, the god of all Tengu (mountain spirits)",
+      "Annual Water Festival (cleansing rituals and celebrations)",
+      "Kurama Fire Festival (blaze of purification around October 22nd)"
     ],
     "souvenirs_and_charms": [
       "Omamori (Protection Charms)",
@@ -87,7 +111,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Saki Jinja",
     "location": { "lat": 34.6847, "lng": 135.8118 },
     "city": "Nara",
@@ -111,9 +135,9 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Kairyuo-ji",
-    "location": {"lat": 34.6819, "lng": 135.8323},
+    "location": { "lat": 34.6819, "lng": 135.8323 },
     "city": "Nara",
     "country": "Japan",
     "description": "Kairyuo-ji is a small Buddhist temple nestled in the hills of Nara City. Despite its modest size, it is revered for its tranquil atmosphere and beautiful gardens. Cherry Blossom viewing and Autumn Foliage viewing are ideal at this shrine.",
@@ -132,18 +156,15 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Nara Inko-ji",
-    "location": {"lat": 34.6795, "lng": 135.8353},
+    "location": { "lat": 34.6795, "lng": 135.8353 },
     "city": "Nara",
     "country": "Japan",
     "description": "Nara Inko-ji is a small Buddhist temple located in the heart of Nara City. It is renowned for its traditional architecture and serene atmosphere.",
     "deities": ["Buddha"],
     "features": ["Main Hall (Hondo)", "Pagoda", "Gardens"],
-    "events_and_festivals": [
-      "New Year's Prayer Ceremony",
-      "Garden Festivals"
-    ],
+    "events_and_festivals": ["New Year's Prayer Ceremony", "Garden Festivals"],
     "souvenirs_and_charms": [
       "Omamori (Protection Charms)",
       "Ema (Votive Tablets)",
@@ -157,18 +178,15 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Nara Hanazono Jinja",
-    "location": {"lat": 34.6812, "lng": 135.8282},
+    "location": { "lat": 34.6812, "lng": 135.8282 },
     "city": "Nara",
     "country": "Japan",
     "description": "Nara Hanazono Jinja is a small Shinto shrine located near Nara Park. It is dedicated to Inari, the deity of rice and prosperity, and is known for its vermilion torii gates and fox statues.",
     "deities": ["Inari"],
     "features": ["Torii Gates", "Fox Statues"],
-    "events_and_festivals": [
-      "New Year's Prayer Ceremony",
-      "Fox Festival"
-    ],
+    "events_and_festivals": ["New Year's Prayer Ceremony", "Fox Festival"],
     "souvenirs_and_charms": [
       "Omamori (Protection Charms)",
       "Ema (Votive Tablets)",
@@ -182,9 +200,9 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Okita Shrine",
-    "location": {"lat": 34.6907, "lng": 133.9195},
+    "location": { "lat": 34.6907, "lng": 133.9195 },
     "city": "Okayama",
     "country": "Japan",
     "description": "Okita Shrine is a historic Shinto shrine located in Okayama City. Nestled by the Hyakuken River, it enshrines a princess who was offered to a white snake/dragon in return for a cease to the flooding of Okayama city. One of the shrine buildings has a beautiful and impressively large shimenawa (ropes made of rice straw or hemp to ward off evil spirits). This shrine is particularly beloved by locals and is great for children as it has an abundance of themed charms including Dragon-Ball and Hello Kitty.",
@@ -203,9 +221,9 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Yoshinaga Jinja",
-    "location": {"lat": 34.5975, "lng": 133.8865},
+    "location": { "lat": 34.5975, "lng": 133.8865 },
     "city": "Okayama",
     "country": "Japan",
     "description": "Yoshinaga Shrine is a small Shinto shrine nestled in the countryside of Okayama. It is revered for its tranquil atmosphere and beautiful natural surroundings.",
@@ -224,12 +242,12 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Kibitsu Jinja",
-    "location": {"lat": 34.6368, "lng": 133.8537},
+    "location": { "lat": 34.6707, "lng": 133.8506 },
     "city": "Okayama",
     "country": "Japan",
-    "description": "Kibitsu Jinja is a historic Shinto shrine complex steeped in legend, architectural beauty, and natural wonder. Once the main shrine for the entire Kibi Province, it became the guardian of Bitchu Province (modern Okayama) after the region's division. Nestled at the foot of Mount Kibi-Nakayama, the shrine's grounds offer a tranquil escape. A majestic 600-year-old ginkgo tree stands sentinel, its leaves turning a vibrant yellow each November. Kibitsu Jinja isn't just a single shrine, but a shrine complex that tells a rich story. Explore the enchanting peony garden, bursting with color in spring, or wander through the serene hydrangea garden during the summer months.  Hundreds of lanterns illuminate the pathways, casting a magical glow at night, creating a truly atmospheric experience.  There's even an on-site kyu-dojo (archery).",
+    "description": "Kibitsu Jinja is a historic Shinto shrine complex steeped in legend, architectural beauty, and natural wonder. Once the main shrine for the entire Kibi Province, it became the guardian of Bitchu Province (modern Okayama) after the region's division. Nestled at the foot of Mount Kibi-Nakayama, the shrine's grounds offer a tranquil escape. A majestic 600-year-old ginkgo tree stands sentinel, its leaves turning a vibrant yellow each November. Kibitsu Jinja isn't just a single shrine, but a shrine complex that tells a rich story. Explore the enchanting peony garden, bursting with color in spring, or wander through the serene hydrangea garden during the summer months. Hundreds of lanterns illuminate the pathways, casting a magical glow at night, creating a truly atmospheric experience. There's even an on-site kyu-dojo (archery).",
     "deities": ["Kibi-no-Omi-no-Mikoto", "Susanoo-no-Mikoto"],
     "features": ["Main Hall (Honden)", "Torii Gate", "Kibitsu-zuka Mound"],
     "souvenirs_and_charms": [
@@ -238,6 +256,106 @@
       "Local Handicrafts",
       "Goshuin (calligraphy)"
     ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Kibitsu Shrine is a must-visit destination in Okayama. Its historical significance and serene atmosphere make it a truly memorable experience."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Ikukunitama Jinja",
+    "location": { "lat": 34.6651, "lng": 135.5128 },
+    "city": "Osaka",
+    "country": "Japan",
+    "description": "Ikunitama Shrine is a mere 15-minute walk from the vibrant Dotonbori district. Renowned as the oldest shrine in Osaka, Ikunitama Shrine offers a powerful source of blessings, particularly for matchmaking, severing unwanted relationships, fostering harmonious connections, and safeguarding women. A shrine complex, it boasts a network of eleven smaller shrines, each dedicated to a specific deity. Find blessings for entertainment (perfect for aspiring performers!), success in business, and even a guardian for home construction. One particularly popular sub-shrine is Shigino Shrine, revered by the historical figure Yodo. Interestingly, all enshrined deities are female, solidifying its enduring appeal as a source of spiritual support for women.  If you visit during July 11th and 12th, you might even witness the electrifying Ikunitama Festival, a major summer celebration alongside the renowned Tenjin and Sumiyoshi festivals, further enriching your cultural experience in Osaka.",
+    "deities": ["Ikushima-no-Okami", "Kunishima-no-Okami"],
+    "features": [
+      "Momoyama period architectural style",
+      "Torii Gate",
+      "Kibitsu-zuka Mound"
+    ],
+    "souvenirs_and_charms": [
+      "Omamori (Protection Charms)",
+      "Ema (Votive Tablets)",
+      "Local Handicrafts",
+      "Goshuin (calligraphy)"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Kibitsu Shrine is a must-visit destination in Okayama. Its historical significance and serene atmosphere make it a truly memorable experience."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Kamishikimi Kumanoimas Jinja",
+    "location": { "lat": 34.6677, "lng": 135.5127 },
+    "city": "Takamori",
+    "country": "Japan",
+    "description": "Kamishikimi Kumanoimasu is an atmospheric Shinto shrine shrouded in mystery and natural beauty. Nestled amidst the cypress forests surrounding Takamori, a small town at the foot of Mount Aso, the shrine offers a tranquil escape. Nearly 100 moss-covered stone lanterns line the steps leading up to the main hall, creating a captivating and almost otherworldly atmosphere.  The shrine is dedicated to the creator gods Izanagi-no-Mikoto and Izanami-no-Mikoto, according to local legends. Behind the main hall, a path leads to a large sacred stone called Ugetoiwa, featuring a mysterious 10-meter hole. Legend attributes this hole to a demon's escape, symbolizing the ability to overcome any difficulty. Kamishikimi Kumanoimasu Shrine is believed to bring good luck in marriage, making it a popular destination for couples seeking blessings.",
+    "deities": ["Izanagi-no-Mikoto", "Izanami-no-Mikoto"],
+    "features": [
+      "Nearly 100 moss-covered stone lanterns lining the path",
+      "Ugetoiwa, the sacred stone with a legendary hole",
+      "Symbol of overcoming difficulties",
+      "Believed to bring good luck in marriage"
+    ],
+    "souvenirs_and_charms": [
+      "Omamori (Protection Charms)",
+      "Goshuin (calligraphy)",
+      "Omikuji (fortunes)",
+      "Ofuda (talismans)"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Kibitsu Shrine is a must-visit destination in Okayama. Its historical significance and serene atmosphere make it a truly memorable experience."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Ujigami Jinja",
+    "location": { "lat": 34.8919, "lng": 135.8113 },
+    "city": "Uji",
+    "country": "Japan",
+    "description": "Ujigami Jinja is a hidden gem steeped in history, awaiting discovery across the Uji River from the captivating Byodo-in Temple. This Shinto shrine holds the prestigious title of the oldest original shrine structure remaining in Japan, with its founding estimated around 1060! Ujigami Jinja served as a dedicated guardian for the nearby Byodo-in Temple for centuries. Recognized as a UNESCO World Heritage Site, the shrine's honden (main hall) reflects the classic nagare-zukuri architectural style, known for its gracefully curved and asymmetrical roof. Immerse yourself in the tranquility as you ascend Mount Uji, either by scenic cable car or a challenging yet rewarding staircase. Your journey culminates at this spiritual haven, where breathtaking panoramic views and a profound sense of history intertwine to create a truly unforgettable experience. If you're taking the JR from Kyoto station make sure to sit on the left hand side to get the best view of the Uji mountains as you approach Uji station.",
+    "deities": ["Emperor Ōjin", "Uji no Wakiiratsuko", "Emperor Nintoku"],
+    "features": [
+      "Oldest original Shinto shrine structure in Japan (estimated 1060)",
+      "Guardian shrine for Byodo-in Temple",
+      "Nagare-zukuri style honden (main hall)",
+      "Scenic location on Mount Uji"
+    ],
+    "souvenirs_and_charms": [
+      "Omamori (Protection Charms)",
+      "Goshuin (calligraphy)"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Kibitsu Shrine is a must-visit destination in Okayama. Its historical significance and serene atmosphere make it a truly memorable experience."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Itto Seki",
+    "location": { "lat": 34.7264, "lng": 135.9598 },
+    "city": "Yagyū",
+    "country": "Japan",
+    "description": "Itto-seki, literally meaning 'one-sword cut', is a massive split boulder located in the picturesque Yagyu countryside. Legend attributes the split to the legendary swordsman Yagyu Muneyoshi (also known as Sekishūsai), who sliced the rock in one swift stroke during his training.  The mysterious boulder has become a popular pilgrimage site, especially for fans of the anime and manga series 'Demon Slayer' (Kimetsu no Yaiba), due to a similar scene involving a split rock.  Visitors can admire the impressive size and clean split of the Itto-seki, and immerse themselves in the local legends surrounding this historical landmark. Visit Amenoiwatate Jinja on your way to the boulder.",
+    "deities": ["NA"],
+    "features": [
+      "Legendary split attributed to swordsman Yagyu Muneyoshi",
+      "Popular pilgrimage site for anime fans (Demon Slayer)",
+      "Massive boulder with a clean split",
+      "Scenic location in Yagyu countryside"
+    ],
+    "souvenirs_and_charms": ["Tenugui (traditional Japanese towel"],
     "reviews": [
       {
         "rating": 5,
