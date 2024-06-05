@@ -16,4 +16,16 @@ router.get("/", (_req, res) => {
   res.json(shrines);
 });
 
+// GET endpoint for individual shrines by id
+router.get("/:id", (req, res) => {
+  const shrine = readShrines();
+  const singleShrine = shrine.find((shrine) => shrine.id === req.params.id);
+
+  if (!singleShrine) {
+    res.status(404).send({ error: "Shrine not found" });
+  } else {
+    res.json(singleShrine);
+  }
+});
+
 module.exports = router;
