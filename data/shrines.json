@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "Reigandō",
     "location": { "lat": 32.8196, "lng": 130.6228 },
     "city": "Kumamoto",
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": "2",
     "name": "Hachidai Jinja",
     "location": {
       "lat": 35.0125,
@@ -56,7 +56,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": "3",
     "name": "Atago Jinja",
     "location": {
       "lat": 35.0135,
@@ -88,7 +88,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": "4",
     "name": "Yuki Jinja",
     "location": { "lat": 35.1306, "lng": 135.765 },
     "city": "Kyoto",
@@ -117,7 +117,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": "5",
     "name": "Ikoma Jinja",
     "location": { "lat": 35.1306, "lng": 135.765 },
     "city": "Ikoma",
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": "6",
     "name": "Wakakusayama",
     "location": { "lat": 35.1306, "lng": 135.765 },
     "city": "Nara",
@@ -169,7 +169,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": "7",
     "name": "Saki Jinja",
     "location": { "lat": 34.6847, "lng": 135.8118 },
     "city": "Nara",
@@ -196,7 +196,7 @@
   },
  
   {
-    "id": 8,
+    "id": "8",
     "name": "Naratsuhiko Jinja",
     "location": { "lat": 34.6812, "lng": 135.8282 },
     "city": "Nara",
@@ -220,7 +220,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": "9",
     "name": "Okita Jinja",
     "location": { "lat": 34.6907, "lng": 133.9195 },
     "city": "Okayama",
@@ -243,7 +243,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": "10",
     "name": "Musashi Jinja",
     "location": { "lat": 34.5975, "lng": 133.8865 },
     "city": "Mimasaka",
@@ -264,7 +264,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": "11",
     "name": "Kibitsu Jinja",
     "location": { "lat": 34.6707, "lng": 133.8506 },
     "city": "Okayama",
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": "12",
     "name": "Ikukunitama Jinja",
     "location": { "lat": 34.6651, "lng": 135.5128 },
     "city": "Osaka",
@@ -316,7 +316,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": "13",
     "name": "Kamishikimi Kumanoimas Jinja",
     "location": { "lat": 34.6677, "lng": 135.5127 },
     "city": "Takamori",
@@ -345,7 +345,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": "14",
     "name": "Ujigami Jinja",
     "location": { "lat": 34.8919, "lng": 135.8113 },
     "city": "Uji",
@@ -372,7 +372,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": "15",
     "name": "Itto Seki",
     "location": { "lat": 34.7264, "lng": 135.9598 },
     "city": "Yagyū",
