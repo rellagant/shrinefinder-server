@@ -16,6 +16,23 @@ router.get("/", (_req, res) => {
   res.json(shrines);
 });
 
+// GET endpoint to retrieve random shrine
+router.get("/random", (_req, res) => {
+  const shrines = readShrines();
+
+  if (shrines.length === 0) {
+    res.status(404).json({
+      error: "Not found. We're building more shrines for you.",
+    });
+    return;
+  }
+
+  const randomIndex = Math.floor(Math.random() * shrines.length);
+  const randomShrine = shrines[randomIndex];
+
+  res.json(randomShrine);
+});
+
 // GET endpoint for individual shrine by id
 router.get("/:id", (req, res) => {
   const shrine = readShrines();
@@ -81,25 +98,5 @@ router.get(
     res.json(shrinesInPrefecture);
   }
 );
-
-// GET endopint to retrieve random shrine
-// router.get("/random", (_req, res) => {
-//     const shrines = readShrines();
-//     // console.log("Shrines read from file:", shrines);
-  
-//     if (shrines.length === 0) {
-//     //   console.log("No shrines found");
-//       res.status(404).json({
-//         error: "Not found. We're building more shrines for you.",
-//       });
-//       return;
-//     }
-  
-//     const randomIndex = Math.floor(Math.random() * shrines.length);
-//     const randomShrine = shrines[randomIndex];
-//     console.log("Random shrine selected:", randomShrine);
-  
-//     res.json(randomShrine);
-//   });
 
 module.exports = router;
