@@ -12,7 +12,9 @@ app.use(cors());
 
 app.use(express.static("public"));
 
-app.use("/", shrinesRouter);
+const shrineRoute = require("./routes/shrines");
+app.use("/", shrineRoute);
+
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
