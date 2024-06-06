@@ -45,7 +45,7 @@ router.get("/:id", (req, res) => {
   }
 });
 
-// validation for city parameter case insensitive
+// validation for parameter case insensitive
 const checkQueryParam = (paramName) => (req, res, next) => {
   const paramValue = req.params[paramName];
 

@@ -19,7 +19,8 @@
     "reviews": [
       {
         "rating": 5,
-        "comment": "Kibitsu Shrine is a must-visit destination in Okayama. Its historical significance and serene atmosphere make it a truly memorable experience."
+        "comment": "Worth the hike, it provides solitude and gorgeous views. If you visit at the right time hundreds of golden dragonflies will lead the way.",
+        "reviewer": "Brian Station"
       }
     ]
   },
@@ -50,8 +51,9 @@
     ],
     "reviews": [
       {
-        "rating": 5,
-        "comment": "I was here for the new years celebrations and the food stalls were amazing!"
+        "rating": 4,
+        "comment": "Hidden gem in Kyoto for samurai history buffs that's close to some really good ramen shops. It's a nice sleepy neighbourhood for exploring.",
+        "reviewer": "Brianna Station"
       }
     ]
   },
@@ -83,7 +85,8 @@
     "reviews": [
       {
         "rating": 5,
-        "comment": "I was here for the new years celebrations and the food stalls were amazing!"
+        "comment": "A misty pilgrimage for fire protection!  The hike's a challenge, but the panoramic views (if the clouds cooperate) and a quirky citrus vending machine reward your efforts. ️",
+        "reviewer": "Robert Mustard"
       }
     ]
   },
@@ -111,8 +114,9 @@
     ],
     "reviews": [
       {
-        "rating": 5,
-        "comment": "The hike up to the shrine is beautiful and peaceful. The shrine itself is serene and offers a great spiritual experience."
+        "rating": 4.5,
+        "comment": "This one is easy to miss if you take the cable car up. Grab a hiking stick (they're provided) and check out the 800 year old cedar. The top of Kurama is great too and you can go down the other side where there are super cute restaurants. You might see local women coming up the back of the mountain in high heels, that was wild!",
+        "reviewer": "Spike Spiegel"
       }
     ]
   },
@@ -139,7 +143,8 @@
     "reviews": [
       {
         "rating": 5,
-        "comment": "The hike up to the shrine is beautiful and peaceful. The shrine itself is serene and offers a great spiritual experience."
+        "comment": "The main shrine is masterfully built and there's free parking, too. There's also a hall dedicated to the goddess Kannon on the right side of the main shrine that's easy to miss. It has some really nice art. The views are incredible too.",
+        "reviewer": "Takeda Shingen"
       }
     ]
   },
@@ -163,8 +168,9 @@
     ],
     "reviews": [
       {
-        "rating": 5,
-        "comment": "The hike up to the shrine is beautiful and peaceful. The shrine itself is serene and offers a great spiritual experience."
+        "rating": 4,
+        "comment": "People were taking wedding photos at the top with the deer. It was a tough hike as the mountain didn't look that tall. It was worth it though the views are stunning, especially during cherry blossom season. That really big temple in Nara looks so tiny from up top!",
+        "reviewer": "Serena Tsukino"
       }
     ]
   },
@@ -190,7 +196,8 @@
     "reviews": [
       {
         "rating": 5,
-        "comment": "Saki Jinja is a hidden gem in Nara. The shrine's tranquil atmosphere and beautiful surroundings make it a perfect place for contemplation and relaxation."
+        "comment": "Saki Jinja is a hidden gem in Nara. The shrine's tranquil atmosphere and beautiful surroundings make it a perfect place for contemplation and relaxation. There's a nice pond nearby too, and a vending machine by the pond that was convenient as it was hot out when I was walking over from the Heijo palace ruins.",
+        "reviewer": "Karis M"
       }
     ]
   },
@@ -206,7 +213,7 @@
     "description": "Located along the old Nara Highway at the northern end of the city, it's considered a gateway to Nara. The vermilion-lacquered Kasuga-zukuri style main hall and dance hall stand out within the precincts. A pond dedicated to Benzaiten-sama (goddess of beauty and fortune) graces the grounds, alongside statues representing Seven Lucky Gods. The true hidden treasure lies at the back of the shrine grounds - a giant camphor tree designated as a natural monument, estimated to be 1300 years old. This ancient marvel adds a mystical touch and is popular among those seeking power spots. The shrine has endured challenging times throughout history, including the Nanbokucho era, and is cherished by the local community. Reservations can be made for a guided tour that includes the shrine and a museum.",
     "deities": ["Shiki-no-miko"],
     "features": ["Camphor Tree"],
-    "events_and_festivals": ["Okinai Dance in October"],
+    "events_and_festivals": ["Okina Dance in October"],
     "souvenirs_and_charms": [
       "Omamori (Protection Charms)",
       "Ema (Votive Tablets)",
@@ -214,8 +221,9 @@
     ],
     "reviews": [
       {
-        "rating": 4,
-        "comment": "Nara Hanazono Jinja is a charming shrine with a serene atmosphere. The torii gates and fox statues add to its beauty."
+        "rating": 3,
+        "comment": "The parking is free but it was busy that day, and the tree is great but it's outside of the shrine. I like how peaceful and quiet it was. I might come back for the dancing.",
+        "reviewer": "George Glass"
       }
     ]
   },
@@ -238,7 +246,8 @@
     "reviews": [
       {
         "rating": 4,
-        "comment": "Okita Shrine is a peaceful and picturesque spot in Okayama. The garden is particularly beautiful."
+        "comment": "The big hemp rope was cool, but this place seemed very commercial. Free parking was a big plus and it's super friendly! We hung out on the river after.",
+        "reviewer": "Erin M"
       }
     ]
   },
@@ -259,7 +268,8 @@
     "reviews": [
       {
         "rating": 11,
-        "comment": "One of the more beautiful and secluded places in Japan. The view from the doors of the main building is unforgettable."
+        "comment": "One of the more beautiful and secluded places in Japan. The view from the ryokan haunts me in my sleep.",
+        "reviewer": "Rella C"
       }
     ]
   },
@@ -283,7 +293,8 @@
     "reviews": [
       {
         "rating": 5,
-        "comment": "Kibitsu Shrine is a must-visit destination in Okayama. Its historical significance and serene atmosphere make it a truly memorable experience."
+        "comment": "Kibitsu Shrine is a must-visit destination in Okayama. Its historical significance and serene atmosphere make it a truly memorable experience.",
+        "reviewer": "Kendal Roy"
       }
     ]
   },
@@ -311,7 +322,8 @@
     "reviews": [
       {
         "rating": 5,
-        "comment": "Kibitsu Shrine is a must-visit destination in Okayama. Its historical significance and serene atmosphere make it a truly memorable experience."
+        "comment": "Kibitsu Shrine is a must-visit destination in Okayama. Its historical significance and serene atmosphere make it a truly memorable experience.",
+        "reviewer": "Cameron Howe"
       }
     ]
   },
@@ -339,8 +351,9 @@
     ],
     "reviews": [
       {
-        "rating": 5,
-        "comment": "Kibitsu Shrine is a must-visit destination in Okayama. Its historical significance and serene atmosphere make it a truly memorable experience."
+        "rating": 3,
+        "comment": "Gorgeous lantern-lit hike & serene atmosphere. Remote location, limited amenities (bathrooms only), potentially crowded due to anime fame.",
+        "reviewer": "Rowan Ember"
       }
     ]
   },
@@ -367,7 +380,8 @@
     "reviews": [
       {
         "rating": 5,
-        "comment": "Kibitsu Shrine is a must-visit destination in Okayama. Its historical significance and serene atmosphere make it a truly memorable experience."
+        "comment": "A lovely little find in Kyoto! It was pretty, but it wasn't super grand like the Phoenix Hall across from it. Still worth a visit if you're in the area!.",
+        "reviewer": "Alexis Rose"
       }
     ]
   },
@@ -391,7 +405,8 @@
     "reviews": [
       {
         "rating": 3,
-        "comment": "It was great for a rock."
+        "comment": "It was great for a rock. Too many anime fans, not enough Lone Wolf & Cub Yagyu fans.",
+        "reviewer": "Richard T"
       }
     ]
   }
