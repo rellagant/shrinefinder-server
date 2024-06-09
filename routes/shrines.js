@@ -8,14 +8,6 @@ function readShrines() {
   const parsedData = JSON.parse(shrineData);
   return parsedData;
 }
-
-// GET endpoint for ALL shrines
-router.get("/", (_req, res) => {
-  const shrines = readShrines();
-  console.log(shrines);
-  res.json(shrines);
-});
-
 // GET endpoint to retrieve random shrine
 router.get("/random", (_req, res) => {
   const shrines = readShrines();
@@ -33,10 +25,34 @@ router.get("/random", (_req, res) => {
   res.json(randomShrine);
 });
 
+// GET endpoint that returns ONLY a list of Prefectures
+router.get("/prefectures", (_req, res) => {
+  const shrineData = readShrines();
+  const prefectureList = [
+    ...new Set(shrineData.map((shrine) => shrine.prefecture)),
+  ];
+  res.json(prefectureList);
+});
+
+// GET endpoint for Shrine By Prefecture
+router.get("/shrines/:prefecture", (req, res) => {
+  const shrineData = readShrines();
+  const { prefecture } = req.params;
+  const shrineByPrefecture = shrineData
+    .filter((shrine) => shrine.prefecture === prefecture)
+    .map((shrine) => ({
+      id: shrine.id,
+      name: shrine.name,
+      image: shrine.image,
+      city: shrine.city,
+    }));
+  res.json(shrineByPrefecture);
+});
+
 // GET endpoint for individual shrine by id
-router.get("/:id", (req, res) => {
-  const shrine = readShrines();
-  const singleShrine = shrine.find((shrine) => shrine.id === req.params.id);
+router.get("/shrine/:id", (req, res) => {
+  const shrines = readShrines();
+  const singleShrine = shrines.find((shrine) => shrine.id === req.params.id);
 
   if (!singleShrine) {
     res.status(404).send({ error: "Shrine not found" });
@@ -45,87 +61,16 @@ router.get("/:id", (req, res) => {
   }
 });
 
-// POST endpoint for reviews
-router.post("/:id/reviews", (req, res) => {
+// GET endopint for reviews only
+router.get("/reviews/:id", (req, res) => {
   const shrines = readShrines();
-  const shrine = shrines.find((shrine) => shrine.id === req.params.id);
+  const reviews = shrines.find((shrine) => shrine.id === req.params.id).reviews;
 
-  if (!shrine) {
-    return res.status(404).json({ error: "Review item not found" });
+  if (!reviews) {
+    res.status(404).send({ error: "Shrine not found" });
+  } else {
+    res.json(reviews);
   }
-
-  const { rating, comment, reviewer } = req.body;
-
-  if (!rating || !comment || !reviewer) {
-    return res
-      .status(400)
-      .json({ error: "Rating, comment, and review are required" });
-  }
-
-  const newReview = {
-    rating: parseFloat(rating),
-    comment,
-    reviewer,
-  };
-
-  shrine.reviews.unshift(newReview);
-  fs.writeFileSync("./data/shrines.json", JSON.stringify(shrines, null, 2));
-
-  res.status(201).json(newReview);
 });
-
-// validation for parameter case insensitive
-const checkQueryParam = (paramName) => (req, res, next) => {
-  const paramValue = req.params[paramName];
-
-  if (
-    !paramValue ||
-    typeof paramValue !== "string" ||
-    paramValue.trim().length === 0
-  ) {
-    return res.status(400).json({ error: "Invalid ${paramName} parameter" });
-  }
-  next();
-};
-
-// Function to filter shrines by property
-const findShrinesByProperty = (property, value) => {
-  const shrines = readShrines();
-  return shrines.filter(
-    (shrine) => shrine[property].toLowerCase() === value.toLowerCase()
-  );
-};
-
-// Get endpoint by city
-router.get("/byCity/:city", checkQueryParam("city"), (req, res) => {
-  const city = req.params.city;
-  const shrinesInCity = findShrinesByProperty("city", city);
-
-  if (shrinesInCity.length === 0) {
-    return res.status(404).json({
-      error:
-        "No shrines found at the moment, please come back later as more shrines and cultural landmarks are being added!",
-    });
-  }
-  res.json(shrinesInCity);
-});
-
-// Get endpoint by prefecture
-router.get(
-  "/byPrefecture/:prefecture",
-  checkQueryParam("prefecture"),
-  (req, res) => {
-    const prefecture = req.params.prefecture;
-    const shrinesInPrefecture = findShrinesByProperty("prefecture", prefecture);
-
-    if (shrinesInPrefecture.length === 0) {
-      return res.status(404).json({
-        error:
-          "No shrines found at the moment, please come back later as more shrines and cultural landmarks are being added!",
-      });
-    }
-    res.json(shrinesInPrefecture);
-  }
-);
 
 module.exports = router;
