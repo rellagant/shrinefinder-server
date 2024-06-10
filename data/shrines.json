@@ -20,7 +20,9 @@
       "Hundreds of weathered stone statues (Gohyaku Rakan)",
       "Statue of Kannon, the Bodhisattva of Compassion"
     ],
-    "souvenirs_and_charms": ["Unknown"],
+    "souvenirs_and_charms": [
+      "Unknown"
+    ],
     "reviews": [
       {
         "rating": 5,
@@ -169,6 +171,11 @@
     ],
     "reviews": [
       {
+        "rating": 4,
+        "comment": "I love being under the mountain.",
+        "reviewer": "Rella"
+      },
+      {
         "rating": 5,
         "comment": "The main shrine is masterfully built and there's free parking, too. There's also a hall dedicated to the goddess Kannon on the right side of the main shrine that's easy to miss. It has some really nice art. The views are incredible too.",
         "reviewer": "Takeda Shingen"
@@ -254,8 +261,13 @@
     "country": "Japan",
     "image": "/images/naratsuhiko.jpg",
     "description": "Located along the old Nara Highway at the northern end of the city, it's considered a gateway to Nara. The vermilion-lacquered Kasuga-zukuri style main hall and dance hall stand out within the precincts. A pond dedicated to Benzaiten-sama (goddess of beauty and fortune) graces the grounds, alongside statues representing Seven Lucky Gods. The true hidden treasure lies at the back of the shrine grounds - a giant camphor tree designated as a natural monument, estimated to be 1300 years old. This ancient marvel adds a mystical touch and is popular among those seeking power spots. The shrine has endured challenging times throughout history, including the Nanbokucho era, and is cherished by the local community. Reservations can be made for a guided tour that includes the shrine and a museum.",
-    "deities": ["Shiki-no-miko"],
-    "features": ["Camphor Tree","Okina Dance in October"],
+    "deities": [
+      "Shiki-no-miko"
+    ],
+    "features": [
+      "Camphor Tree",
+      "Okina Dance in October"
+    ],
     "souvenirs_and_charms": [
       "Omamori (Protection Charms)",
       "Ema (Votive Tablets)",

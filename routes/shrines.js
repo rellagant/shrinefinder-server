@@ -73,4 +73,34 @@ router.get("/reviews/:id", (req, res) => {
   }
 });
 
+// POST endpoint for reviews
+router.post("/:id/reviews", (req, res) => {
+  const shrines = readShrines();
+  const shrine = shrines.find((shrine) => shrine.id === req.params.id);
+
+  if (!shrine) {
+    return res.status(404).json({ error: "Review item not found" });
+  }
+
+  const { rating, comment, reviewer } = req.body;
+
+  if (!rating || !comment || !reviewer) {
+    return res
+      .status(400)
+      .json({ error: "Rating, comment, and review are required" });
+  }
+
+  const newReview = {
+    rating: parseFloat(rating),
+    comment,
+    reviewer,
+  };
+
+  shrine.reviews.unshift(newReview);
+  fs.writeFileSync("./data/shrines.json", JSON.stringify(shrines, null, 2));
+
+  res.status(201).json(newReview);
+});
+
+
 module.exports = router;
